@@ -69,7 +69,8 @@ class HTMLEncoder extends Encoder {
     /**
      * Encoding for '&lt;'.
      */
-    private static final char[] LT = "&lt;".toCharArray();
+    // changed to default
+     static final char[] LT = "&lt;".toCharArray();
     /**
      * Encoding for '&gt;'.
      */

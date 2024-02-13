@@ -59,7 +59,8 @@ public class EncodedWriter extends Writer {
     /**
      * The wrapped writer.
      */
-    private Writer _out;
+    // changed to default
+     Writer _out;
 
     /**
      * The encoder used to encode input to the output writer.
