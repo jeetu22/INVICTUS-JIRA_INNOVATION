@@ -49,7 +49,9 @@ import org.springframework.mock.web.MockServletContext;
 public abstract class EncodingTagTest extends TestCase {
 
     protected MockServletContext _servletContext;
+    // this is multi repo commit 1
     protected MockPageContext _pageContext;
+    // this is multi repo commit 1
     protected MockHttpServletRequest _request;
     protected MockHttpServletResponse _response;
 
