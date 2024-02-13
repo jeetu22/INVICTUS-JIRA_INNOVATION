@@ -59,7 +59,8 @@ import java.nio.charset.CoderResult;
  */
 public final class Encode {
     /** No instances. */
-    private Encode() {}
+    // changed to default
+     Encode() {}
 
     /**
      * <p>Encodes for (X)HTML text content and text attributes.  Since

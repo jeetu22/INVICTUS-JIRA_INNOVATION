@@ -46,7 +46,9 @@ import org.owasp.encoder.Encode;
  */
 public class ForHtmlAttributeTag extends EncodingTag {
     @Override
-    public void doTag() throws JspException, IOException {
+    // changed to default
+     void doTag() throws JspException, IOException {
+        // this is multi repo commit 1
         Encode.forHtmlAttribute(getJspContext().getOut(), _value);
     }
 }
